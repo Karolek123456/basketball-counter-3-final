@@ -1,0 +1,55 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<title><Basketball-counter-ziolkowski></Basketball-cunter-ziolkowski></title>
+    <link rel="stylesheet" href="./styles.css">
+
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+    </style>
+
+    
+  </head>
+  <body>
+
+  <div id="counter-body">
+
+
+
+          <div class="counter-column">
+
+                <h1 class="title">HOME</h1>
+
+                <div class="score-num cursed-timer-font">
+                <h1 id="home-screen">0</h1>
+                </div>
+              
+              <button onclick = "homeAddOne()" class ="increase-btn cursed-timer-font">+1</button>
+              <button onclick = "homeAddTwo()" class="increase-btn cursed-timer-font">+2</button>
+              <button onclick = "homeAddThree()" class="increase-btn cursed-timer-font">+3</button>
+                
+          </div>
+          <button id="reset-btn" onclick="resetScore()" class="cursed-timer-font">RESET SCORE</button>
+              <div class="counter-column">
+
+                    <h1 class="title">GUEST</h1>
+
+                    <div class="score-num cursed-timer-font">
+                    <h1 id="guest-screen">0</h1>
+                    </div>
+                  
+                  <button onclick = "guestAddOne()" class="increase-btn cursed-timer-font">+1</button>
+                  <button onclick = "guestAddTwo()" class="increase-btn cursed-timer-font">+2</button>
+                  <button onclick = "guestAddThree()" class="increase-btn cursed-timer-font">+3</button>
+                
+           
+
+</div>       
+          
+</div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
